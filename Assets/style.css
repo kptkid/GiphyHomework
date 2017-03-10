@@ -1,0 +1,22 @@
+#buttons {
+	margin: 5px;
+}
+.btowns {
+	margin: 5px;
+}
+.item {
+	display:inline-block;
+	margin: 10px;
+	text-align: center;
+	border: #337ab7 4px solid;
+}
+#searchText {
+	margin-top: 10px;
+}
+body {
+	background-color: #ababab;
+}
+p {
+	color:#fff;
+	font-weight: bold;
+}

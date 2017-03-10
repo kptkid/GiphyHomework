@@ -5,6 +5,7 @@ function start () {
         var button = $("<button>");
         button.attr("data-show", topics[i]);
         button.text(topics[i]);
+        button.addClass("btn btn-primary btowns");
         $("#buttons").append(button);
     }
 }
@@ -48,6 +49,7 @@ $("#hookerFucker").on("click", function(event){
     var btn = $("<button>");
     btn.attr("data-show", $("#hookedFucker").val().trim());
     btn.text($("#hookedFucker").val().trim());
+    btn.addClass("btn btn-primary btowns");
     $("#buttons").append(btn);
     $("#hookedFucker").val("");    
 });
